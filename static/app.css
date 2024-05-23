@@ -1,0 +1,142 @@
+p {
+    color: red;
+    
+}
+
+.subheader {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+h1, a, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1>a {
+    margin-left: 2rem;  
+}
+
+a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+
+hr {
+    border:solid 2px black;
+}
+
+body {
+    background-image: url('https://a.espncdn.com/combiner/i?img=/i/headshots/nba/players/full/1966.png'); /* Replace 'path/to/your/background-image.jpg' with the path to your image file */
+    background-size: cover; /* Adjusts the size of the background image to cover the entire body */
+    background-position: center; /* Centers the background image */
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: sandybrown;
+    padding: 0;
+  }
+  
+.logo {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+.nav-links {
+    display:flex;
+    align-items: flex-start;
+}
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+    transition: color 0.3s ease;
+  }
+  
+.nav-links a:hover {
+    color: #55acee; /* Change to your preferred hover color */
+  }
+ 
+
+.content {
+    padding: 0px;
+}
+
+#logo {
+    padding-left: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#square {
+    display: inline-block; /* Display as inline block to make it inline with text */
+    width: 24rem; /* Width of the square */
+    height: 24rem; /* Height of the square */
+    text-align: center; /* Center the text horizontally */
+    line-height: 100px; /* Center the text vertically */
+    border: 5px solid black;
+    font-weight: bold;
+    font-size: 3rem;
+    margin-left: 18px;
+}
+
+
+#lebronid {
+    background-image: url(https://media.tenor.com/KavktwzqBOAAAAAM/lebron-james-lebron.gif);
+    background-size: auto;
+}
+
+.mewhen {
+    height: 2000px;
+}
+
+#HELP {
+    font-size: 10rem;
+}
+
+#HELP:hover {
+    color: yellow;
+}
+
+.formcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+.formcontainer > input {
+    margin-top: 	0.4rem;
+}
+
+.formcontainer > label {
+    font-size: large;
+    color: white;
+}
+
+.formcontainer > select, .formcontainer > input {
+    background-color: white;
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: 2px solid black;
+}
+
+.formheader {
+    text-align: center;
+    font-size: larger;
+}
