@@ -6,27 +6,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LMAO</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style>
 </head>
 
 <body>
     <nav>
         <div class="navbar">
-            <h1><a class="logo" href="https://www.google.com/search?q=Home">Home</a></h1>
+            <h1><a class="logo" href="/">Home</a></h1>
             <div class="nav-links">
                 <a href="lebron" id="smalllogo">Lebron</a>
-                <a href="songfinder">Woah</a>
+                <a href="songfinder">Song Finder</a>
                 <a href="https://www.google.com/" id="smalllogo3">Settings</a>
             </div>
         </div>
     </nav>
-    <h1>Test document</h1>
+    <h1 class="title">Riffmap</h1>
+    <a class="docheader" href="documentation">Documentation</a>
     <hr>
     <div class="body">
         <p class="subheader">This is a test html website to test elements I can implement for my program using flask,
             focusing on the visual side [HTML and CSS].</p>
-        <div id="square">Placeholder</div>
-        <div id="square">Placeholder</div>
-        <div id="square">Placeholder</div>
+        <div id="square">Level 1</div>
+        <div id="square">Level 2</div>
+        <div id="square">Level 3</div>
     </div>
     <div></div>
 </body>

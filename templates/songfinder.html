@@ -6,50 +6,53 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='app.css') }}">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+    </style>
 </head>
 
 <body>
     <nav>
         <div class="navbar">
-            <h1><a class="logo" href="https://www.google.com/search?q=Home">Home</a></h1>
+            <h1><a class="logo" href="/">Home</a></h1>
             <div class="nav-links">
                 <a href="lebron" id="smalllogo">Lebron</a>
-                <a href="songfinder">Woah</a>
+                <a href="songfinder">Song Finder</a>
                 <a href="https://www.google.com/" id="smalllogo3">Settings</a>
             </div>
         </div>
     </nav>
-    <h1>Song Finder</h1>
+    <h1 class="title">Song Finder</h1>
     <hr>
     <div class="body">
         <p class="formheader">Choose performance level: </p>
         <div class="formcontainer">
-        <label for="level">Choose a Level:</label>
-        <select id="level" name="level">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-        </select>
-        <label for="genre">Choose a Genre:</label>
-        <select id="genre" name="genre">
-            <option value="Pop Rock">Pop Rock</option>
-            <option value="Heavy Metal">Heavy Metal</option>
-            <option value="Pop">Pop</option>
-            <option value="Glam Metal">Glam Metal</option>
-            <option value="Rock">Rock</option>
-            <option value="Punk Rock">Punk Rock</option>
-        </select>
-        <label for="experience">Level of Experience (Leave empty if unsure):</label>
-        <select id="experience" name="experience">
-            <option value="Grade1-3">Grade 3 or under</option>
-            <option value="Grade4-5">Grade 4-5</option>
-            <option value="Grade6-7">Grade 6-7</option>
-            <option value="Grade8+">Grade 8+ (Advanced)</option>
-            <option value="Unsure">Unsure</option>
-        </select>
-        <input type="submit" value="Submit"></button>
+            <label for="level">Choose a Level:</label>
+            <select id="level" name="level">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+            </select>
+            <label for="genre">Choose a Genre:</label>
+            <select id="genre" name="genre">
+                <option value="Pop Rock">Pop Rock</option>
+                <option value="Heavy Metal">Heavy Metal</option>
+                <option value="Pop">Pop</option>
+                <option value="Glam Metal">Glam Metal</option>
+                <option value="Rock">Rock</option>
+                <option value="Punk Rock">Punk Rock</option>
+            </select>
+            <label for="experience">Level of Experience (Leave empty if unsure):</label>
+            <select id="experience" name="experience">
+                <option value="Grade1-3">Grade 3 or under</option>
+                <option value="Grade4-5">Grade 4-5</option>
+                <option value="Grade6-7">Grade 6-7</option>
+                <option value="Grade8+">Grade 8+ (Advanced)</option>
+                <option value="Unsure">Unsure</option>
+            </select>
+            <input type="submit" value="Submit"></button>
         </div>
-        </div>
+    </div>
 </body>
 
 </html>
