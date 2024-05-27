@@ -2,6 +2,7 @@ p {
     color: white;
     -webkit-text-stroke-width: 0.8px;
     -webkit-text-stroke-color: black;
+    font-weight: bold;
     
 }
 
@@ -9,12 +10,19 @@ p {
     text-align: center;
 }
 
+.icon {
+    display: inline;
+    width: 20%;
+    height: 20%;
+}
+
 .docheader {
     text-align: center;
-    margin-left: 45%;
+    margin-left: 44%;
     color: white;
     -webkit-text-stroke-width: 0.8px;
     -webkit-text-stroke-color: black;
+    font-weight: bold;
 }
 h1 {
     text-align: center;
@@ -50,7 +58,7 @@ hr {
 }
 
 body {
-    background-image: url('https://rockfm-cdnmed.rockfm.fm/resources/jpg/0/8/1667972008980.jpg') ;/* Replace 'path/to/your/background-image.jpg' with the path to your image file */
+    background-image: url('https://rockfm-cdnmed.rockfm.fm/resources/jpg/0/8/1667972008980.jpg');/* Replace 'path/to/your/background-image.jpg' with the path to your image file */
     background-size: cover; 
     background-position: center; 
 }
@@ -112,20 +120,19 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#square {
+.icon {
     display: inline-block; /* Display as inline block to make it inline with text */
     width: 24rem; /* Width of the square */
     height: 24rem; /* Height of the square */
     text-align: center; /* Center the text horizontally */
     line-height: 100px; /* Center the text vertically */
-    border: 5px solid black;
-    font-weight: bold;
-    font-size: 3rem;
-    margin-left: 18px;
+    
+
     -webkit-text-stroke-width: 3px;
     -webkit-text-stroke-color: black;
-    color: white;
+    margin-left: 24px;
 }
+
 
 
 #lebronid {
@@ -149,8 +156,9 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    -webkit-text-stroke-width: 0.7px;
+    -webkit-text-stroke-width: 0.8px;
     -webkit-text-stroke-color: black;
+    font-weight: bold;
   }
 
 .formcontainer > input {
